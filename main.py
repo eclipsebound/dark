@@ -212,16 +212,17 @@ def main():
             if selected_user_number:
                 AuthInstance.set_active_user(selected_user_number)
             else:
-                print("No user selected or failed to load user.")
+                ifint("No user selected or failed to load user.")
 
 if __name__ == "__main__":
     try:
-        print("Checking for updates...")
-        need_update = check_for_updates()
-        if need_update:
-            pause()
+        # print("Checking for updates...")
+        # need_update = check_for_updates()
+        # if need_update:
+        #     pause()
 
         main()
+
     except KeyboardInterrupt:
         print("\nExiting the application.")
     # except Exception as e:
