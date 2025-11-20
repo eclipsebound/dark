@@ -46,5 +46,3 @@ What's the point of strong client side security when the server don't enforce it
 By using this tool, the user agrees to comply with all applicable laws and regulations and to release the developer from any and all claims arising from its use.
 
 ## Contact
-
-contact@mashu.lol
